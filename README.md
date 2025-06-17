@@ -10,3 +10,5 @@ onde está sendo protocolado todas as imagens do nosso projeto.
 
 5º Todas as imagens são fotos de celular tiradas pela professora Lilian Alexandre.
 
+6º As imagens dos cards foram montadas no site Canva, recurso gratuito e livre de uso.
+
