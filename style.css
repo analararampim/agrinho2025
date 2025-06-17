@@ -6,7 +6,6 @@ body {
   color: black;
 }
 
-/* Modo alto contraste */
 body.alto-contraste {
   background-color: black;
   color: yellow;
