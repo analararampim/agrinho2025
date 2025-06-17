@@ -1,8 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
-body{
-    background-color: #cbf184fd;
+
+body {
+  background-color: white;
+  color: black;
 }
+
+/* Modo alto contraste */
+body.alto-contraste {
+  background-color: black;
+  color: yellow;
+}
+
+a {
+  color: blue;
+}
+
+body.alto-contraste a {
+  color: cyan;
+}
+
+
 body {
   font-size: 20px;
 }
@@ -15,6 +33,8 @@ body {
 body {
     font-family: "Arial", sans-serif;
   }
+
+
 
   h1,
 h2,
