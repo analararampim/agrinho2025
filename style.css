@@ -1,18 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 
-.botao {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #28a745;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-family: sans-serif;
-  }
-  .botao:hover {
-    background-color: #218838;
-  }
+ body {
+      background-color: white;
+      color: black;
+      font-family: sans-serif;
+      transition: all 0.3s ease;
+    }
+
+    /* Esconde o checkbox */
+    #contraste-toggle {
+      display: none;
+    }
+
+    /* Botão de contraste */
+    .botao {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      user-select: none;
+    }
+
+    /* Estilo quando checkbox está marcado (modo escuro) */
+    #contraste-toggle:checked ~ body {
+      background-color: black;
+      color: white;
+    }
 
 body {
   font-size: 20px;
